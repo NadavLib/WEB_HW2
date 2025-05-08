@@ -1,0 +1,159 @@
+* {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    background: #fafafa;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #a54c3c;
+    margin-bottom: 0.5rem;
+  }
+  
+  #topContainer {
+    background: linear-gradient(135deg, #3e8e8e, #62c2c2);
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #topContainer .hero {
+    max-width: 600px;
+  }
+  
+  #topContainer .intro {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    margin-top: 0.5rem;
+  }
+  
+  #topContainer .divider {
+    border: 0;
+    height: 4px;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 100%);
+    margin: 2rem auto;
+  }
+  
+  .about-me {
+    padding: 2rem 1rem;
+    background: #fff;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .about-me h2 {
+    font-size: 2rem;
+    color: #3f8e8e;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .about-text {
+    flex: 1 1 300px;
+    text-align: left;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem auto;
+  }
+  
+  .card-grid {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 1 200px;
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .get-in-touch {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin-top: 2rem;
+  }
+  
+  .get-in-touch h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    color: #3f8e8e;
+  }
+  
+  .get-in-touch p {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-link {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border: 2px solid #3f8e8e;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #3f8e8e;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .contact-link:hover {
+    background-color: #3f8e8e;
+    color: #fff;
+  }
+  
+  .linkedin-logo {
+    width: 32px;
+    height: auto;
+    display: block;
+  }
